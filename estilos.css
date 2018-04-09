@@ -44,15 +44,19 @@ body{background-color:#8f9291}
 .boton:hover
 {
     box-shadow: 0px 0px 0px;
-    padding-top: 20px;
+    padding-top: 22px;
 }
 
 /*---------Formulario-----------------------*/
+div
+{
+    align-self: center;
+}
 
 form
 {
     text-align: center;
-    width: 20%;
+    width: 40%;
     border: 3px solid #300c33;
     margin: 15px;
     padding: 15px;
@@ -60,7 +64,7 @@ form
 
 input, textarea
 {
-    margin-bottom: 20px;
+    margin-bottom: 17px;
     width: 70%;
     padding: 10px;
     -webkit-box-sizing: border-box;
@@ -73,5 +77,33 @@ input, textarea
 input:focus
 {
     border: 2px solid #1f2ce9;
+}
+
+
+/*Estilos listas*/
+table, th, td {
+    border: 1px solid black;
+}
+
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul {
+    background: #aaa69d;
+    padding: 20px;
+}
+
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+div li {
+    background: #cacaca;
+    margin: 5px;
+    list-style: none;
 }
 
